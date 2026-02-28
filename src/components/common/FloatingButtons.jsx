@@ -9,7 +9,7 @@ export default function FloatingButtons() {
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     return (
-        <div className="fixed bottom-20 md:bottom-7 right-6 md:left-6 md:right-auto flex flex-col gap-4 z-50">
+        <div className="fixed bottom-9 md:bottom-7 right-6 md:left-6 md:right-auto flex flex-col gap-4 z-50">
 
             {/* Call Button */}
             <a

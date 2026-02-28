@@ -11,7 +11,7 @@ export default function HeroSection() {
 
       {/* Background Image */}
       <Image
-        src="/images/Astrology-banner.avif"  
+        src="/images/Astrology-banner.jpg"  
         alt="Astrology Consultation"
         fill
         priority
