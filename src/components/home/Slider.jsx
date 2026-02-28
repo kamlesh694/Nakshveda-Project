@@ -23,6 +23,39 @@ const slides = [
         desc: "Accurate Birth Chart & Future Predictions",
         img: "/images/future.avif",
     },
+
+    // 🔥 New Slides Added
+
+    {
+        title: "Marriage & Compatibility",
+        desc: "Kundli Matching & Marriage Solutions",
+        img: "/images/marriage.jpeg",
+    },
+    {
+        title: "Health & Grah Dosh",
+        desc: "Planetary Remedies & Health Guidance",
+        img: "/images/grahDosh.jpg",
+    },
+    {
+        title: "Vastu Consultation",
+        desc: "Home & Office Vastu Correction",
+        img: "/images/Vastu.jpg",
+    },
+    {
+        title: "Child & Education Problem",
+        desc: "Education, Focus & Future Guidance",
+        img: "/images/education.avif",
+    },
+    {
+        title: "Court Case & Legal Issues",
+        desc: "Legal Matters & Dispute Solutions",
+        img: "/images/court.webp",
+    },
+    {
+        title: "Foreign Settlement",
+        desc: "Visa, Abroad Travel & Settlement Guidance",
+        img: "/images/foreign.jpg",
+    },
 ]
 
 export default function ServicesSlider() {
@@ -31,7 +64,7 @@ export default function ServicesSlider() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrent((prev) => (prev + 1) % slides.length)
-        }, 4000)
+        }, 3000)
 
         return () => clearInterval(interval)
     }, [])

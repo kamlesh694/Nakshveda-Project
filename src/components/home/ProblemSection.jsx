@@ -4,7 +4,7 @@ import Image from "next/image"
 const phoneNumber = "918200261494"
 
 const problems = [
-  { title: "लव प्रॉब्लम समाधान", img: "/images/loveproblem.jpg" },
+  { title: "लव प्रॉब्लम समाधान", img: "/images/Loveproblem.jpg" },
   { title: "ब्रेकअप समस्या", img: "/images/breakup.webp" },
   { title: "विवाह में देरी", img: "/images/vivah.jpg" },
   { title: "पति-पत्नी विवाद", img: "/images/pati-patni.jpeg" },

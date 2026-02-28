@@ -27,7 +27,7 @@ export default function HeroSection() {
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-5">
           Trusted Astrology Guidance by <br />
-          <span className="text-yellow-400">Astrologer Manish Joshi</span>
+          <span className="text-yellow-400 text-3xl ">Astrologer <span className="text-7xl"> Manish Joshi</span></span>
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-8">
