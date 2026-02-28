@@ -86,7 +86,7 @@ export default function Footer() {
 
             {/* Bottom Line */}
             <div className="border-t border-gray-700 mt-12 mb-12 pt-6 text-center text-sm text-gray-400">
-                © {new Date().getFullYear()} NakshVeda | Designed & Developed by Kamlesh Panwar & Sonu</div>
+                © {new Date().getFullYear()} NakshVeda | Designed & Developed by__  InfernoKS </div>
         </footer>
     );
 }
