@@ -17,7 +17,7 @@ export default function Footer() {
                 <div>
                     <h2 className="text-2xl font-bold text-white mb-4">
                         <span className="text-red-500">Naksh</span>
-                        <span className="text-yellow-400">Veda</span>
+                        <span className="text-yellow-400">Vedaa</span>
                     </h2>
                     <p className="text-sm leading-6">
                         प्रेम विवाह, रिलेशनशिप समस्या, पति-पत्नी विवाद,
@@ -89,7 +89,7 @@ export default function Footer() {
 
             {/* Bottom Line */}
             <div className="border-t border-gray-700 mt-12 mb-12 pt-6 text-center text-sm text-gray-400">
-                © {new Date().getFullYear()} NakshVeda | Designed & Developed by__  InfernoKS </div>
+                © {new Date().getFullYear()} NakshVedaa | Designed & Developed by__  InfernoKS </div>
         </footer>
     );
 }

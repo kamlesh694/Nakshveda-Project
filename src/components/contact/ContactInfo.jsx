@@ -15,7 +15,7 @@ export default function ContactInfo() {
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             Contact <span className="text-red-600">Naksh</span>
-            <span className="text-gray-900">Veda</span>
+            <span className="text-gray-900">Vedaa</span>
           </h2>
           <p className="text-gray-600 mt-3">
             Get expert astrology consultation from Manish Joshi
