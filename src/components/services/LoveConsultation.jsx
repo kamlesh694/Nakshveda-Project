@@ -13,9 +13,9 @@ export default function LoveConsultation() {
         {/* Image Left (Desktop) */}
         <div className="order-2 lg:order-1">
           <img
-            src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2"
+            src="/images/relation.png"
             alt="Love Consultation"
-            className="rounded-3xl shadow-2xl w-full h-72 md:h-80 lg:h-96 object-cover"
+            className="rounded-3xl shadow-2xl w-full ] md:h-80 lg:h-[550px] object-cover"
           />
         </div>
 

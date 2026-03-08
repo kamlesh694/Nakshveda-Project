@@ -7,19 +7,19 @@ const testimonials = [
     name: "Rohit Sharma",
     review:
       "Manish Joshi ji ne meri love problem 7 din me solve kar di. Bahut accurate prediction tha.",
-    image: "/images/test1.avif",
+    image: "/images/rohit.png",
   },
   {
     name: "Priya Patel",
     review:
       "Marriage delay ka solution mila. Ab meri shaadi fix ho chuki hai. Highly recommended astrologer.",
-    image: "/images/test3.jpg",
+    image: "/images/priya.png",
   },
   {
     name: "Amit Verma",
     review:
       "Business loss chal raha tha, guidance ke baad growth start ho gayi. Thank you sir.",
-    image: "/images/test2.avif",
+    image: "/images/amit.png",
   },
   
 ]
@@ -62,7 +62,7 @@ export default function TestimonialSection() {
                         src={item.image}
                         alt={item.name}
                         fill
-                        className="rounded-full object-cover"
+                        className="rounded-full object-[center_20%] object-cover"
                       />
                     </div>
                   </div>

@@ -19,16 +19,16 @@ export default function AboutPreview() {
           <div className="relative group">
             <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/Om.jpg"
+                src="/images/pandit.png"
                 alt="Astrologer"
                 fill
-                className="object-cover transition duration-500 group-hover:scale-105"
+                className="object-cover object-[center_32%] transition duration-500 group-hover:scale-105"
               />
             </div>
 
             {/* Experience Badge */}
             <div className="absolute -bottom-3 -right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-6 py-4 rounded-2xl shadow-lg">
-              <p className="text-2xl font-bold">15+ Years</p>
+              <p className="text-2xl font-bold">20+ Years</p>
               <p className="text-sm">अनुभव</p>
             </div>
           </div>
@@ -41,13 +41,13 @@ export default function AboutPreview() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed">
-              वर्षों के अनुभव और सटीक भविष्यवाणी के लिए प्रसिद्ध। 
-              प्रेम विवाह, करियर, व्यवसाय, पारिवारिक विवाद एवं 
+              वर्षों के अनुभव और सटीक भविष्यवाणी के लिए प्रसिद्ध।
+              प्रेम विवाह, करियर, व्यवसाय, पारिवारिक विवाद एवं
               काला जादू निवारण में विशेष विशेषज्ञता।
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              हजारों संतुष्ट ग्राहकों का विश्वास और सफल समाधान 
+              हजारों संतुष्ट ग्राहकों का विश्वास और सफल समाधान
               हमारा प्रमुख उद्देश्य है।
             </p>
 

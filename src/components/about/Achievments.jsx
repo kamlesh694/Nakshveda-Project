@@ -36,7 +36,7 @@ export default function Achievements() {
             </div>
 
             <div className="bg-gray-50 p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition">
-              <h3 className="text-3xl font-bold text-yellow-500">15+</h3>
+              <h3 className="text-3xl font-bold text-yellow-500">20+</h3>
               <p className="text-gray-600 text-sm mt-2">Years Experience</p>
             </div>
 
@@ -82,13 +82,13 @@ export default function Achievements() {
           </h2>
 
           <p className="text-gray-600 mb-6 leading-relaxed">
-            With more than 15 years of experience in Vedic Astrology,
+            With more than 20 years of experience in Vedic Astrology,
             Manish Pandit Ji has guided thousands of individuals
             in career, marriage, and life decisions.
           </p>
 
           <ul className="space-y-3 text-gray-700">
-            <li>✔ 15+ Years of Experience</li>
+            <li>✔ 20+ Years of Experience</li>
             <li>✔ 5000+ Consultations Completed</li>
             <li>✔ Specialist in Kundli & Marriage Matching</li>
             <li>✔ Trusted Across India</li>

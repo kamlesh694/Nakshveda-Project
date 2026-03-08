@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import Link from "next/link"   // ✅ add this
+import Link from "next/link"   
 
 const phoneNumber = "918200261494"
 
@@ -8,17 +8,17 @@ const services = [
   {
     title: "लव एवं रिलेशनशिप समाधान",
     desc: "प्रेम विवाह में बाधा, ब्रेकअप सुलह, परिवारिक विरोध समाप्त",
-    img: "/images/loveproblem.jpg",
+    img: "/images/LoveProblem.png",
   },
   {
     title: "करियर एवं नौकरी मार्गदर्शन",
     desc: "सरकारी नौकरी, प्रमोशन, करियर ग्रोथ समाधान",
-    img: "/images/career.png",
+    img: "/images/carrer.png",
   },
   {
     title: "बिजनेस एवं धन समस्या समाधान",
     desc: "बिजनेस लॉस रिकवरी, आर्थिक स्थिरता, निवेश मार्गदर्शन",
-    img: "/images/Bussiness-loss.jpg",
+    img: "/images/bussiness.png",
   },
 ]
 

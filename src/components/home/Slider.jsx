@@ -6,22 +6,22 @@ const slides = [
     {
         title: "Love & Relationship Problem",
         desc: "Breakup, Marriage Delay, Family Objection Solutions",
-        img: "/images/love-problems.jpg",
+        img: "/images/LoveProblem.png",
     },
     {
         title: "Career & Job Growth",
         desc: "Promotion, Government Job & Career Stability",
-        img: "/images/career.webp",
+        img: "/images/carrer.png",
     },
     {
         title: "Business & Finance",
         desc: "Business Loss Recovery & Financial Stability",
-        img: "/images/bussiness-loss.jpg",
+        img: "/images/bussiness.png",
     },
     {
         title: "Kundli & Horoscope",
         desc: "Accurate Birth Chart & Future Predictions",
-        img: "/images/future.avif",
+        img: "/images/kundli.png",
     },
 
     // 🔥 New Slides Added
@@ -29,32 +29,32 @@ const slides = [
     {
         title: "Marriage & Compatibility",
         desc: "Kundli Matching & Marriage Solutions",
-        img: "/images/marriage.jpeg",
+        img: "/images/LoveM.png",
     },
     {
         title: "Health & Grah Dosh",
         desc: "Planetary Remedies & Health Guidance",
-        img: "/images/grahDosh.jpg",
+        img: "/images/HealthP.png",
     },
     {
         title: "Vastu Consultation",
         desc: "Home & Office Vastu Correction",
-        img: "/images/Vastu.jpg",
+        img: "/images/Vastu.png",
     },
     {
         title: "Child & Education Problem",
         desc: "Education, Focus & Future Guidance",
-        img: "/images/education.avif",
+        img: "/images/child.png",
     },
     {
         title: "Court Case & Legal Issues",
         desc: "Legal Matters & Dispute Solutions",
-        img: "/images/court.webp",
+        img: "/images/court.png",
     },
     {
         title: "Foreign Settlement",
         desc: "Visa, Abroad Travel & Settlement Guidance",
-        img: "/images/foreign.jpg",
+        img: "/images/foreign.png",
     },
 ]
 

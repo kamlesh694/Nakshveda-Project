@@ -21,7 +21,7 @@ export default function CTA() {
         </h2>
 
         <p className="text-gray-600 text-lg mb-8">
-          15+ saal ke anubhav ke saath Manish Pandit ji se paaiye
+          20+ saal ke anubhav ke saath Manish Pandit ji se paaiye
           sahi aur satik margdarshan. Career, Vivah, Love, Business
           ya Grah Dosh — har samasya ka samadhan.
         </p>

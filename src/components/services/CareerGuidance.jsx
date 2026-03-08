@@ -42,9 +42,9 @@ export default function CareerGuidance() {
         {/* Right Image */}
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+            src="/images/guid.png"
             alt="Career Guidance"
-            className="rounded-3xl shadow-2xl w-full object-cover"
+            className="rounded-3xl shadow-2xl w-full h-[600px] object-cover"
           />
         </div>
 

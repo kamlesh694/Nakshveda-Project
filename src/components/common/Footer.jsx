@@ -71,14 +71,17 @@ export default function Footer() {
 
                         {/* Social Icons */}
                         <div className="flex gap-4 pt-2">
-                            <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-yellow-400 hover:text-black transition">
-                                <FaFacebookF size={14} />
-                            </a>
-                            <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-yellow-400 hover:text-black transition">
-                                <FaInstagram size={14} />
-                            </a>
-                        </div>
 
+                            <a
+                                href="https://www.instagram.com/SAIBABAASTRO"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-gray-800 p-2 rounded-full hover:bg-pink-500 hover:text-white transition duration-300"
+                            >
+                                <FaInstagram size={16} />
+                            </a>
+
+                        </div>
                     </div>
                 </div>
 

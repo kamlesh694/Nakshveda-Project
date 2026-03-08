@@ -50,11 +50,7 @@ export default function Navbar() {
 
 
                 <div
-                    className={`fixed right-0 top-[100px] 
-  w-[70%] h-[calc(100vh-100px)]
-  bg-white shadow-lg 
-  transform transition-transform duration-300 ease-in-out z-50
-  ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+                    className={`fixed right-0 top-[100px] w-[70%] h-[calc(100vh-100px)] bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-50  ${isOpen ? "translate-x-0" : "translate-x-full"}`}
                 >
 
 
@@ -72,11 +68,7 @@ export default function Navbar() {
                     {/* NakshVeda */}
 
 
-                    <h1 className="absolute bottom-4 left-1/2 -translate-x-1/2 
-text-6xl font-black tracking-[6px]
-bg-gradient-to-r from-yellow-400 to-orange-500
-bg-clip-text text-transparent opacity-10
-select-none pointer-events-none px-4 z-50">
+                    <h1 className="absolute bottom-4 left-1/2 -translate-x-1/2  text-6xl font-black tracking-[6px] bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent opacity-10 select-none pointer-events-none px-4 z-50">
                         NAKSH VEDA
                     </h1>
 
@@ -97,24 +89,14 @@ select-none pointer-events-none px-4 z-50">
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => setIsOpen(false)}
-                            className="relative overflow-hidden group 
-  inline-flex items-center justify-center
-  bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-500
-  text-white text-sm md:text-base
-  px-4 md:px-6 py-2.5 md:py-3
-  rounded-full font-semibold
-  shadow-md transition-all duration-300 ease-in-out
-  hover:scale-105 hover:shadow-xl
-  active:scale-95 w-full"
+                            className="relative overflow-hidden group  inline-flex items-center justify-center bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-500  text-white text-sm md:text-base  px-4 md:px-6 py-2.5 md:py-3 rounded-full font-semibold  shadow-md transition-all duration-300 ease-in-out  hover:scale-105 hover:shadow-xl  active:scale-95 w-full"
                         >
                             <span className="relative z-10 whitespace-nowrap">
                                 Book Consultation
                             </span>
 
                             {/* Shine Effect */}
-                            <span className="absolute inset-0 bg-white/20 
-  translate-x-[-100%] group-hover:translate-x-[100%]
-  transition-transform duration-700 ease-in-out"></span>
+                            <span className="absolute inset-0 bg-white/20  translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out"></span>
                         </a>
                     </div>
                 </div>
@@ -156,7 +138,7 @@ select-none pointer-events-none px-4 z-50">
                         {/* LOGO */}
                         <h1 className="text-2xl font-bold tracking-wide cursor-pointer">
                             <span className="text-red-600">Naksh</span>
-                            <span className="text-gray-900">Veda</span>
+                            <span className="text-gray-900">Vedaa</span>
                         </h1>
 
                         {/* DESKTOP MENU */}
@@ -171,18 +153,12 @@ select-none pointer-events-none px-4 z-50">
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 onClick={() => setIsOpen(false)}
-                                className="relative overflow-hidden group 
-  bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-500
-  text-white px-6 py-3 rounded-full text-center font-semibold
-  shadow-lg transition-all duration-300 ease-in-out
-  hover:scale-105 hover:shadow-2xl active:scale-95"
+                                className="relative overflow-hidden group  bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-500  text-white px-6 py-3 rounded-full text-center font-semibold  shadow-lg transition-all duration-300 ease-in-out  hover:scale-105 hover:shadow-2xl active:scale-95"
                             >
                                 <span className="relative z-10">Book Consultation</span>
 
                                 {/* Shine Effect */}
-                                <span className="absolute inset-0 bg-white/20 
-  translate-x-[-100%] group-hover:translate-x-[100%]
-  transition-transform duration-700 ease-in-out"></span>
+                                <span className="absolute inset-0 bg-white/20   translate-x-[-100%] group-hover:translate-x-[100%]  transition-transform duration-700 ease-in-out"></span>
                             </a>
                         </nav>
 

@@ -21,18 +21,18 @@ export default function Services() {
   }, [])
 
   const services = [
-    { title: "Janam Kundli Analysis", desc: "Complete birth chart reading with detailed planetary analysis.", img: "https://images.unsplash.com/photo-1505506874110-6a7a69069a08" },
-    { title: "Marriage Compatibility", desc: "Kundli matching and compatibility report.", img: "https://images.unsplash.com/photo-1519741497674-611481863552" },
-    { title: "Love Problem Solution", desc: "Astrological remedies for relationship issues.", img: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2" },
-    { title: "Career Guidance", desc: "Career prediction and job success timing.", img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d" },
-    { title: "Business Astrology", desc: "Business growth and partnership prediction.", img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf" },
-    { title: "Financial Astrology", desc: "Wealth yog and investment timing.", img: "https://images.unsplash.com/photo-1565514158740-064f34bd6f66" },
-    { title: "Vastu Consultation", desc: "Home and office vastu correction.", img: "https://images.unsplash.com/photo-1505691938895-1758d7feb511" },
-    { title: "Gemstone Recommendation", desc: "Personalized gemstone suggestions.", img: "https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2" },
-    { title: "Numerology Report", desc: "Lucky numbers and destiny analysis.", img: "https://images.unsplash.com/photo-1520975922326-47f98b8c8e5f" },
-    { title: "Palm Reading", desc: "Hand line analysis and life insights.", img: "https://images.unsplash.com/photo-1603575449299-9f7e0c3d75bd" },
-    { title: "Mangal Dosha Analysis", desc: "Complete Mangal dosha remedies.", img: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308" },
-    { title: "Foreign Settlement", desc: "Foreign travel and settlement prediction.", img: "https://images.unsplash.com/photo-1502920917128-1aa500764b95" }
+    { title: "Janam Kundli Analysis", desc: "Complete birth chart reading with detailed planetary analysis.", img: "/images/janamkundli.png" },
+    { title: "Marriage Compatibility", desc: "Kundli matching and compatibility report.", img: "/images/kundli.png" },
+    { title: "Love Problem Solution", desc: "Astrological remedies for relationship issues.", img: "/images/LoveProblem.png" },
+    { title: "Career Guidance", desc: "Career prediction and job success timing.", img: "/images/carrer.png" },
+    { title: "Business Astrology", desc: "Business growth and partnership prediction.", img: "/images/bussiness.png" },
+    { title: "Financial Astrology", desc: "Wealth yog and investment timing.", img: "/images/financial.png" },
+    { title: "Vastu Consultation", desc: "Home and office vastu correction.", img: "/images/Vastu.png" },
+    { title: "Gemstone Recommendation", desc: "Personalized gemstone suggestions.", img: "/images/gemstone.png" },
+    { title: "Numerology Report", desc: "Lucky numbers and destiny analysis.", img: "/images/number.png" },
+    { title: "Palm Reading", desc: "Hand line analysis and life insights.", img: "/images/palm.png" },
+    { title: "Mangal Dosha Analysis", desc: "Complete Mangal dosha remedies.", img: "/images/mangal.png" },
+    { title: "Foreign Settlement", desc: "Foreign travel and settlement prediction.", img: "/images/foreign.png" }
   ]
 
   // 📱 Mobile → show 6
@@ -64,7 +64,7 @@ export default function Services() {
               <img
                 src={service.img}
                 alt={service.title}
-                className="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+                className="w-full h-56 object-cover object-[center_45%]  group-hover:scale-110 transition duration-500"
               />
             </div>
 

@@ -4,16 +4,16 @@ import Image from "next/image"
 const phoneNumber = "918200261494"
 
 const problems = [
-  { title: "लव प्रॉब्लम समाधान", img: "/images/Loveproblem.jpg" },
-  { title: "ब्रेकअप समस्या", img: "/images/breakup.webp" },
-  { title: "विवाह में देरी", img: "/images/vivah.jpg" },
-  { title: "पति-पत्नी विवाद", img: "/images/pati-patni.jpeg" },
-  { title: "एक्स्ट्रा मैरिटल अफेयर", img: "/images/affair.jpg" },
-  { title: "करियर समस्या", img: "/images/career.png" },
-  { title: "बिजनेस में नुकसान", img: "/images/Bussinessloss.avif" },
-  { title: "कोर्ट केस समस्या", img: "/images/court.webp" },
-  { title: "काला जादू हटाएं", img: "/images/kala-jadu.jpeg" },
-  { title: "कुंडली दोष समाधान", img: "/images/kundali.jpg" },
+  { title: "लव प्रॉब्लम समाधान", img: "/images/LoveProblem.png" },
+  { title: "ब्रेकअप समस्या", img: "/images/breakup.png" },
+  { title: "विवाह में देरी", img: "/images/MarrigeDelay.png" },
+  { title: "पति-पत्नी विवाद", img: "/images/husbandwife.png" },
+  { title: "एक्स्ट्रा मैरिटल अफेयर", img: "/images/extraLove.png" },
+  { title: "करियर समस्या", img: "/images/carrer.png" },
+  { title: "बिजनेस में नुकसान", img: "/images/bussiness.png" },
+  { title: "कोर्ट केस समस्या", img: "/images/court.png" },
+  { title: "काला जादू हटाएं", img: "/images/blackmagic.png" },
+  { title: "कुंडली दोष समाधान", img: "/images/kundli.png" },
 ]
 
 export default function ProblemsSection() {

@@ -4,9 +4,7 @@ import { useState, useEffect } from "react"
 export default function Hero() {
 
   const images = [
-    "https://images.unsplash.com/photo-1534447677768-be436bb09401",
-    "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0",
-    "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"
+    "/images/navgrah.png"
   ]
 
   const [current, setCurrent] = useState(0)
@@ -49,7 +47,7 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-yellow-400 mb-6 tracking-wide">
-          Discover Your Destiny With NakshVeda
+          Discover Your Destiny With NakshVedaa
         </h1>
 
         <p className="text-gray-200 max-w-2xl mb-8 text-sm sm:text-base md:text-lg">
