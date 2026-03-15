@@ -88,8 +88,10 @@ export default function Footer() {
             </div>
 
             {/* Bottom Line */}
-            <div className="border-t border-gray-700 mt-12 mb-12 pt-6 text-center text-sm text-gray-400">
-                © {new Date().getFullYear()} NakshVedaa | Designed & Developed by__  InfernoKS </div>
+            <div class="w-full border-t border-gray-300 mt-8 pt-4 text-center text-sm text-gray-500">
+                © {new Date().getFullYear()} NakshVedaa | Designed & Developed by
+                <a href="https://www.linkedin.com/in/kamleshpanwar02" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 ml-1">InfernoKS</a>
+            </div>
         </footer>
     );
 }
